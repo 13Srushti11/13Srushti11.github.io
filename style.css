@@ -1,0 +1,182 @@
+ *{
+padding: 0;
+margin: 0;
+box-sizing:border-box;
+}
+body
+{
+background:linear-gradient( rgb(99, 126, 185),rgb(168, 164, 164));
+padding: 4rem;
+}
+html{
+     color: rgb(103, 59, 121);
+     font-family: "sans serif";
+     line-height:1.5;
+     font-size: 62.5%;
+     
+     }
+
+h1{
+   font-size:3.5rem;
+   font-family: "sans serif";
+   color:#df3d4a;
+   }
+ 
+
+
+h2{
+   font-size: 1.5rem;
+   font-family: "sans serif";
+   text-transform:uppercase;
+   border-top: 0.1rem solid rgb(129, 131, 230);
+   border-bottom: 0.1rem solid rgb(129, 131, 230);
+   padding:0.5rem;
+   margin-bottom:2rem;
+   margin-top: 2rem;
+  
+   color: #df3d4a;
+   }
+h3{
+  font-size: 1.5rem;
+  color: rgb(55, 45, 190);
+
+  }
+
+  ul{
+   list-style: none;
+
+}
+p{
+  line-height:1.5;
+  color:rgb(73, 29, 90);
+  font-size: 1.5rem;
+ }
+section + section {
+               margin-top : 2.5rem;
+                }
+
+a {
+   text-decoration: none;
+  color:dark rgb(50, 14, 212);
+  font-size: 1.6rem;
+
+}
+
+.profile {
+    text-align: center;
+}
+.profile img{
+   border-radius :23rem;
+   width: 30rem;
+   height:30rem;
+}
+
+.profile p{
+color: #888;
+margin-bottom:0.5rem;
+font-size: 2rem;
+}
+.contact ul{
+margin-top: 0rem;
+padding: 0rem;
+}
+
+.contact li{
+text-align: left;
+padding:0.5rem;
+font-size: 1.5rem;
+
+}
+
+.skills >ul{
+       display:grid;
+       grid-template-columns: 1fr 1fr;
+       grid-gap:2rem;
+}
+
+.skills li{
+   font-size: 1.5rem;
+   padding: 0.2rem;
+}
+
+.event{
+   display: grid;
+   grid-template-columns:45rem;
+}
+
+.content{
+   border-left : 0.1rem solid #888;
+   padding-left : 1.5rem;
+   margin-left:1.5rem;
+   font-size: 20rem;
+}
+
+ .event + .event {
+   padding-top: 4rem;
+
+
+}
+.resume{
+   display : grid;
+   grid-template-columns: 1fr 50% ;
+   grid-gap:4rem;
+   background-image: url("def.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   padding:2rem;
+   
+}
+.socials ul{
+   padding:1rem;
+   font-size: 2rem;
+
+}
+
+.socials li{
+   padding: 0.5rem;
+}
+
+.event li
+{
+   font-size: 2 rem;
+}
+
+
+
+
+
+
+ @media(max-width:998px){
+    html{
+       font-size: 55%;
+    }
+ }
+
+ @media(max-width:768px)
+ {
+    html{
+       font-size:45%;
+    }
+ }
+
+.interest li{
+   font-size: 1.5rem;
+   padding: 0.5rem;
+   padding-left: 1..3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
